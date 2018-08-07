@@ -1,6 +1,6 @@
 # The Code and Data Citation Counter
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1209311.svg)](https://doi.org/10.5281/zenodo.1209311)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1209311.svg)](https://doi.org/10.5281/zenodo.1209311) [![Join the chat at https://gitter.im/code-cite/Lobby](https://badges.gitter.im/code-cite/Lobby.svg)](https://gitter.im/code-cite/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ***Allow researchers and policy makers to see how the presence and quality of links to data and software in publications are changing over time so that they can identify emergent behaviour.***
 
