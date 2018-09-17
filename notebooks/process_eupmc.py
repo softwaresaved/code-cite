@@ -68,7 +68,7 @@ def process_paper(pmcid, data_dir):
             doi = get_doi(paper_json)
             pub_date = get_pub_date(paper_json)
     except IOError:
-        print("Error: File does not appear to exist.")
+        print("Error: JSON file does not appear to exist.")
 
     # Read in the XML full text and mine for the github URLs
     fulltext_file = data_dir + '/' + pmcid + '/' + 'fulltext.xml'
@@ -78,7 +78,7 @@ def process_paper(pmcid, data_dir):
             fulltext_xml = f.read()
             references = get_references(fulltext_xml)
     except IOError:
-        print("Error: File does not appear to exist.")
+        print("Error: XML file does not appear to exist.")
 
     paper_info = Paper(pmcid, doi, pub_date, references)
 
