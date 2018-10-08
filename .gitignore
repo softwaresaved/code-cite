@@ -7,6 +7,9 @@ data/
 # Ignore directory info from local macOS
 .DS_store
 
+# Ignore .idea folder from PyCharm IDE
+.idea/
+
 #### Default python gitignore as initiated by GitHub
 
 # Byte-compiled / optimized / DLL files
